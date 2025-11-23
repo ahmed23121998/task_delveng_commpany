@@ -15,7 +15,7 @@ export const CourseDetails = (): JSX.Element => {
     <div className="bg-white w-full flex flex-col">
       <NavigationSection />
 
-      <div className="w-full px-10 pt-6 mt-20 flex items-center gap-1 cursor-pointer">
+      <div className="w-full px-10 pt-6 mt-20 flex items-center gap-1 text-xs cursor-pointer">
         {Items.map((item, index) => (
           <React.Fragment key={index}>
             {item.isActive ? (

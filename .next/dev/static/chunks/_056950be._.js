@@ -844,12 +844,12 @@ const CourseDetailsSection = ()=>{
                                             src: "/chatgpt-image-oct-10--2025--08-09-09-pm-1.png"
                                         }, void 0, false, {
                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 183,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -864,7 +864,7 @@ const CourseDetailsSection = ()=>{
                                                         src: "/vuesax-outline-3dcube.svg"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 193,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -872,13 +872,13 @@ const CourseDetailsSection = ()=>{
                                                         children: "HVAC"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 197,
+                                                        lineNumber: 198,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 192,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -889,7 +889,7 @@ const CourseDetailsSection = ()=>{
                                                         children: "MEP Engineering"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 203,
+                                                        lineNumber: 204,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -899,7 +899,7 @@ const CourseDetailsSection = ()=>{
                                                                 className: "w-4 h-4 fill-current text-yellow-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 208,
+                                                                lineNumber: 209,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -907,19 +907,19 @@ const CourseDetailsSection = ()=>{
                                                                 children: "5.0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 209,
+                                                                lineNumber: 210,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 207,
+                                                        lineNumber: 208,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 202,
+                                                lineNumber: 203,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -927,7 +927,7 @@ const CourseDetailsSection = ()=>{
                                                 children: "Master the fundamentals of Mechanical, Electrical, and Plumbing systems in modern engineering projec...."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 215,
+                                                lineNumber: 216,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -936,7 +936,7 @@ const CourseDetailsSection = ()=>{
                                                 src: "/devider.svg"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 221,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -951,7 +951,7 @@ const CourseDetailsSection = ()=>{
                                                                 src: "/vuesax-outline-note-2.svg"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 229,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -959,13 +959,13 @@ const CourseDetailsSection = ()=>{
                                                                 children: "7 lessons"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 234,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 227,
+                                                        lineNumber: 228,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -977,7 +977,7 @@ const CourseDetailsSection = ()=>{
                                                                 src: "/vuesax-outline-task-square.svg"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 239,
+                                                                lineNumber: 240,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -985,41 +985,41 @@ const CourseDetailsSection = ()=>{
                                                                 children: "10 Practice"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 244,
+                                                                lineNumber: 245,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 239,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 226,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 191,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                lineNumber: 181,
+                                lineNumber: 182,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                            lineNumber: 180,
+                            lineNumber: 181,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                        lineNumber: 179,
+                        lineNumber: 180,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1033,7 +1033,7 @@ const CourseDetailsSection = ()=>{
                                         children: "Level Assessment"
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 257,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1042,13 +1042,13 @@ const CourseDetailsSection = ()=>{
                                         src: "/vuesax-outline-arrow-right.svg"
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 259,
+                                        lineNumber: 260,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                lineNumber: 255,
+                                lineNumber: 256,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,7 +1059,7 @@ const CourseDetailsSection = ()=>{
                                         children: "Level:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 267,
+                                        lineNumber: 268,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1071,7 +1071,7 @@ const CourseDetailsSection = ()=>{
                                                 children: "Beginner"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 287,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1079,7 +1079,7 @@ const CourseDetailsSection = ()=>{
                                                 children: "Intermediate"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 287,
+                                                lineNumber: 288,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1087,31 +1087,31 @@ const CourseDetailsSection = ()=>{
                                                 children: "Advanced"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 289,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 270,
+                                        lineNumber: 271,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                lineNumber: 266,
+                                lineNumber: 267,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                        lineNumber: 254,
+                        lineNumber: 255,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                lineNumber: 178,
+                lineNumber: 179,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1127,30 +1127,34 @@ const CourseDetailsSection = ()=>{
                                     children: "Knowledge Areas"
                                 }, void 0, false, {
                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                    lineNumber: 297,
+                                    lineNumber: 298,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$scroll$2d$area$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollArea"], {
                                     className: "w-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-0 pb-4",
+                                            className: "flex items-center gap-1 pb-4",
                                             children: knowledgeAreas.map((area, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                             variant: area.active ? "default" : "secondary",
-                                                            className: `h-8 sm:h-10 px-2 sm:px-3 md:px-4 py-1.5 rounded-lg whitespace-nowrap text-xs sm:text-sm ${area.active ? "bg-primary-colorprimary hover:bg-primary-color400 text-white" : "bg-black-100 hover:bg-black-100 text-black-400"}`,
+                                                            className: `h-8 sm:h-9 md:h-8 
+              px-3 sm:px-3 md:px-2 lg:px-1 
+              py-1.5 rounded-lg whitespace-nowrap
+              text-xs sm:text-sm
+              ${area.active ? "bg-primary-colorprimary hover:bg-primary-color400 text-white" : "bg-black-100 hover:bg-black-100 text-black-400"}`,
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "font-body-medium-600 font-[number:var(--body-medium-600-font-weight)] text-[length:var(--body-medium-600-font-size)] tracking-[var(--body-medium-600-letter-spacing)] leading-[var(--body-medium-600-line-height)] [font-style:var(--body-medium-600-font-style)]",
                                                                 children: area.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 313,
+                                                                lineNumber: 318,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 305,
+                                                            lineNumber: 306,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         index < knowledgeAreas.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1161,14 +1165,14 @@ const CourseDetailsSection = ()=>{
                                                                     src: "/line-2.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                    lineNumber: 320,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: `w-1.5 sm:w-2 h-1.5 sm:h-2 rounded ${area.active ? "bg-primary-colorprimary" : "bg-black-100"} hidden sm:block`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                    lineNumber: 325,
+                                                                    lineNumber: 330,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
@@ -1176,31 +1180,31 @@ const CourseDetailsSection = ()=>{
                                                     ]
                                                 }, area.id, true, {
                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                    lineNumber: 304,
+                                                    lineNumber: 305,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         }, void 0, false, {
                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                            lineNumber: 302,
+                                            lineNumber: 303,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$scroll$2d$area$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollBar"], {
                                             orientation: "horizontal"
                                         }, void 0, false, {
                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                            lineNumber: 337,
+                                            lineNumber: 342,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 302,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                            lineNumber: 296,
+                            lineNumber: 297,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1221,7 +1225,7 @@ const CourseDetailsSection = ()=>{
                                                             children: selectedLesson ? selectedLesson.name : "Foundation Lesson"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 346,
+                                                            lineNumber: 351,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1229,7 +1233,7 @@ const CourseDetailsSection = ()=>{
                                                             children: selectedLesson ? selectedLesson.description : "Master the fundamentals of Mechanical, Electrical, and Plumbing systems in modern engineering projec...."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 352,
+                                                            lineNumber: 357,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1238,7 +1242,7 @@ const CourseDetailsSection = ()=>{
                                                             src: "/devider.svg"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 358,
+                                                            lineNumber: 363,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,7 +1257,7 @@ const CourseDetailsSection = ()=>{
                                                                             src: "/vuesax-outline-task-square.svg"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 366,
+                                                                            lineNumber: 371,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1265,13 +1269,13 @@ const CourseDetailsSection = ()=>{
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 371,
+                                                                            lineNumber: 376,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                    lineNumber: 365,
+                                                                    lineNumber: 370,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1283,7 +1287,7 @@ const CourseDetailsSection = ()=>{
                                                                             src: "/vuesax-outline-clock.svg"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 378,
+                                                                            lineNumber: 383,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1291,13 +1295,13 @@ const CourseDetailsSection = ()=>{
                                                                             children: selectedLesson ? selectedLesson.duration : "1 Hour"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 383,
+                                                                            lineNumber: 388,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 382,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1309,7 +1313,7 @@ const CourseDetailsSection = ()=>{
                                                                             src: "/vuesax-outline-clipboard-text.svg"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 389,
+                                                                            lineNumber: 394,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1321,25 +1325,25 @@ const CourseDetailsSection = ()=>{
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                            lineNumber: 394,
+                                                                            lineNumber: 399,
                                                                             columnNumber: 25
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                    lineNumber: 388,
+                                                                    lineNumber: 393,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 364,
+                                                            lineNumber: 369,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 350,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1348,7 +1352,7 @@ const CourseDetailsSection = ()=>{
                                                     src: "/component-2.svg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                    lineNumber: 402,
+                                                    lineNumber: 407,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1360,7 +1364,7 @@ const CourseDetailsSection = ()=>{
                                                             children: selectedLesson ? "Start Lesson" : "Start Lesson"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 412,
+                                                            lineNumber: 417,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1369,29 +1373,29 @@ const CourseDetailsSection = ()=>{
                                                             src: "/vuesax-outline-arrow-right.svg"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                            lineNumber: 415,
+                                                            lineNumber: 420,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                    lineNumber: 408,
+                                                    lineNumber: 413,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                            lineNumber: 344,
+                                            lineNumber: 349,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 343,
+                                        lineNumber: 348,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 347,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1416,7 +1420,7 @@ const CourseDetailsSection = ()=>{
                                                         src: vector.src
                                                     }, index, false, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 432,
+                                                        lineNumber: 437,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))),
                                                 lessonsData.map((lesson, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1438,7 +1442,7 @@ const CourseDetailsSection = ()=>{
                                                                 src: lessonImages[index]
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 476,
+                                                                lineNumber: 481,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1446,46 +1450,46 @@ const CourseDetailsSection = ()=>{
                                                                 children: lesson.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                                lineNumber: 481,
+                                                                lineNumber: 486,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, lesson.id, true, {
                                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                                        lineNumber: 454,
+                                                        lineNumber: 459,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                            lineNumber: 427,
+                                            lineNumber: 432,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                        lineNumber: 426,
+                                        lineNumber: 431,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                                    lineNumber: 425,
+                                    lineNumber: 430,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                            lineNumber: 341,
+                            lineNumber: 346,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                    lineNumber: 295,
+                    lineNumber: 296,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                lineNumber: 294,
+                lineNumber: 295,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LessonModal$2f$LessonModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LessonModal"], {
@@ -1494,13 +1498,13 @@ const CourseDetailsSection = ()=>{
                 lesson: selectedLesson
             }, void 0, false, {
                 fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-                lineNumber: 499,
+                lineNumber: 504,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx",
-        lineNumber: 177,
+        lineNumber: 178,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2084,7 +2088,7 @@ const CourseDetails = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full px-10 pt-6 mt-20 flex items-center gap-1 cursor-pointer",
+                className: "w-full px-10 pt-6 mt-20 flex items-center gap-1 text-xs cursor-pointer",
                 children: Items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
                         children: [
                             item.isActive ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {

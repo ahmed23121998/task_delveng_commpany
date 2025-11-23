@@ -136,30 +136,31 @@ const vectorImages = [
 ];
 
 const lessonPositions = [
-  { top: "15px", left: "370px" }, 
-  { top: "135px", left: "235px" }, 
-  { top: "272px", left: "390px" }, 
-  { top: "440px", left: "440px" }, 
+  { top: "15px", left: "370px" },
+  { top: "135px", left: "235px" },
+  { top: "272px", left: "390px" },
+  { top: "440px", left: "440px" },
   { top: "560px", left: "350px" },
-  { top: "689px", left: "412px" }, 
-  { top: "725px", left: "225px" }, 
-  { top: "830px", left: "360px" }, 
+  { top: "689px", left: "412px" },
+  { top: "725px", left: "225px" },
+  { top: "830px", left: "360px" },
 ];
 
 const lessonImages = [
-  "/group.png", 
-  "/group-1.png", 
-  "/frame-2085663902.svg", 
-  "/frame-2085663903.svg", 
-  "/frame-2085663904.svg", 
-  "/group-3.png", 
-  "/group-4.png", 
-  "/group-5.png", 
+  "/group.png",
+  "/group-1.png",
+  "/frame-2085663902.svg",
+  "/frame-2085663903.svg",
+  "/frame-2085663904.svg",
+  "/group-3.png",
+  "/group-4.png",
+  "/group-5.png",
 ];
 
 export const CourseDetailsSection = (): JSX.Element => {
-
-  const [selectedLesson, setSelectedLesson] = useState<(typeof lessonsData)[0] | null>(null);
+  const [selectedLesson, setSelectedLesson] = useState<
+    (typeof lessonsData)[0] | null
+  >(null);
   const [hoveredLessonId, setHoveredLessonId] = useState<number | null>(null);
 
   const handleLessonClick = (lessonId: number) => {
@@ -299,16 +300,20 @@ export const CourseDetailsSection = (): JSX.Element => {
             </h2>
 
             <ScrollArea className="w-full">
-              <div className="flex items-center gap-0 pb-4">
+              <div className="flex items-center gap-1 pb-4">
                 {knowledgeAreas.map((area, index) => (
                   <React.Fragment key={area.id}>
                     <Button
                       variant={area.active ? "default" : "secondary"}
-                      className={`h-8 sm:h-10 px-2 sm:px-3 md:px-4 py-1.5 rounded-lg whitespace-nowrap text-xs sm:text-sm ${
-                        area.active
-                          ? "bg-primary-colorprimary hover:bg-primary-color400 text-white"
-                          : "bg-black-100 hover:bg-black-100 text-black-400"
-                      }`}
+                      className={`h-8 sm:h-9 md:h-8 
+              px-3 sm:px-3 md:px-2 lg:px-1 
+              py-1.5 rounded-lg whitespace-nowrap
+              text-xs sm:text-sm
+              ${
+                area.active
+                  ? "bg-primary-colorprimary hover:bg-primary-color400 text-white"
+                  : "bg-black-100 hover:bg-black-100 text-black-400"
+              }`}
                     >
                       <span className="font-body-medium-600 font-[number:var(--body-medium-600-font-weight)] text-[length:var(--body-medium-600-font-size)] tracking-[var(--body-medium-600-letter-spacing)] leading-[var(--body-medium-600-line-height)] [font-style:var(--body-medium-600-font-style)]">
                         {area.name}
