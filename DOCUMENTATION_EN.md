@@ -273,6 +273,216 @@ const [hoveredLessonId, setHoveredLessonId] = useState(null);
 
 ---
 
+## 💾 Data Storage
+
+### Current Method: Static Data
+
+In the current project, **all data is stored as constants within the files themselves**. There is no database or API calls.
+
+### Data Storage Locations
+
+#### 1. Lessons Data (`lessonsData`)
+
+**Location**: `src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx`
+
+```typescript
+const lessonsData = [
+  {
+    id: 0,
+    name: "Foundation Lesson",
+    status: "completed" as const,
+    description: "Master the fundamentals...",
+    quizCount: 10,
+    duration: "1 Hour",
+    questionCount: 10,
+  },
+  {
+    id: 1,
+    name: "Lesson 1",
+    status: "in_progress" as const,
+    description: "Learn advanced air distribution...",
+    quizCount: 8,
+    duration: "45 Minutes",
+    questionCount: 12,
+  },
+  // ... more lessons
+];
+```
+
+**Content**:
+- Each lesson's information (name, status, description)
+- Number of quizzes and duration
+- Number of questions
+
+#### 2. Knowledge Areas (`knowledgeAreas`)
+
+**Location**: Same file
+
+```typescript
+const knowledgeAreas = [
+  { id: 1, name: "Air Distribution System", active: true },
+  { id: 2, name: "Equipment Sizing", active: false },
+  { id: 3, name: "Exhaust System", active: false },
+  // ... more
+];
+```
+
+#### 3. Lesson Positions (`lessonPositions`)
+
+```typescript
+const lessonPositions = [
+  { top: "15px", left: "370px" },
+  { top: "135px", left: "235px" },
+  // ... positions for each lesson on the map
+];
+```
+
+#### 4. Lesson Images (`lessonImages`)
+
+```typescript
+const lessonImages = [
+  "/group.png",
+  "/group-1.png",
+  "/frame-2085663902.svg",
+  // ... image paths
+];
+```
+
+#### 5. Map Paths (`vectorImages`)
+
+```typescript
+const vectorImages = [
+  {
+    src: "/vector-492.png",
+    className: "absolute top-[155px] left-[195.19px]...",
+  },
+  // ... visual paths connecting lessons
+];
+```
+
+#### 6. Navigation Items (`navigationItems`)
+
+**Location**: `src/screens/CourseDetails/sections/NavigationSection/NavigationSection.tsx`
+
+```typescript
+const navigationItems = [
+  { label: "Home", active: false },
+  { label: "Courses", active: true },
+  { label: "About", active: false },
+  // ...
+];
+```
+
+#### 7. Breadcrumb Items
+
+**Location**: `src/screens/CourseDetails/CourseDetails.tsx`
+
+```typescript
+const Items = [
+  { label: "Home", isActive: false },
+  { label: "Courses", isActive: false },
+  { label: "MEP Engineering", isActive: true },
+];
+```
+
+#### 8. Footer Links
+
+**Location**: `src/screens/CourseDetails/sections/LessonSection/LessonSection.tsx`
+
+```typescript
+const navigationLinks = [
+  { label: "Home", href: "#" },
+  { label: "Courses", href: "#" },
+  // ...
+];
+
+const socialIcons = [
+  { Icon: FacebookIcon, label: "Facebook" },
+  { Icon: InstagramIcon, label: "Instagram" },
+  // ...
+];
+```
+
+### Component State
+
+In addition to static data, there is **dynamic state** stored in components:
+
+```typescript
+// In CourseDetailsSection
+const [selectedLesson, setSelectedLesson] = useState(null);
+const [hoveredLessonId, setHoveredLessonId] = useState(null);
+
+// In NavigationSection
+const [open, setOpen] = useState(false);
+const [searchQuery, setSearchQuery] = useState("");
+```
+
+### Storage Method Summary
+
+| Data Type | Location | Type |
+|-----------|----------|------|
+| Lessons Data | `CourseDetailsSection.tsx` | Constant Array |
+| Knowledge Areas | `CourseDetailsSection.tsx` | Constant Array |
+| Lesson Positions | `CourseDetailsSection.tsx` | Constant Array |
+| Navigation Items | `NavigationSection.tsx` | Constant Array |
+| Breadcrumb | `CourseDetails.tsx` | Constant Array |
+| Footer Links | `LessonSection.tsx` | Constant Array |
+| Dynamic State | Inside Components | useState Hook |
+
+### How to Improve Storage (Future)
+
+#### 1. Move Data to Separate Files
+
+```typescript
+// src/data/lessons.ts
+export const lessonsData = [
+  // ... data
+];
+
+// src/data/knowledgeAreas.ts
+export const knowledgeAreas = [
+  // ... data
+];
+```
+
+#### 2. Use Context API
+
+```typescript
+// src/context/CourseContext.tsx
+export const CourseContext = createContext();
+
+export const CourseProvider = ({ children }) => {
+  const [lessons, setLessons] = useState(lessonsData);
+  // ...
+};
+```
+
+#### 3. Connect to API
+
+```typescript
+// Using fetch or axios
+useEffect(() => {
+  fetch('/api/lessons')
+    .then(res => res.json())
+    .then(data => setLessons(data));
+}, []);
+```
+
+#### 4. Use Database
+
+- **Firebase** - NoSQL database
+- **Supabase** - PostgreSQL database
+- **MongoDB** - NoSQL database
+- **PostgreSQL** - Relational database
+
+#### 5. Use State Management Library
+
+- **Zustand** - Lightweight and easy
+- **Redux Toolkit** - Powerful and organized
+- **Jotai** - For atomic state
+
+---
+
 ## 🚀 How to Run the Project
 
 ### Prerequisites

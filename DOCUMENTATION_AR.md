@@ -289,6 +289,217 @@ const [hoveredLessonId, setHoveredLessonId] = useState(null);
 
 ---
 
+## 💾 تخزين البيانات (Data Storage)
+
+### الطريقة الحالية: البيانات الثابتة (Static Data)
+
+في المشروع الحالي، **جميع البيانات مخزنة كـ constants داخل الملفات نفسها**. لا يوجد قاعدة بيانات أو API calls.
+
+### مواقع تخزين البيانات
+
+#### 1. بيانات الدروس (`lessonsData`)
+
+**الموقع**: `src/screens/CourseDetails/sections/CourseDetailsSection/CourseDetailsSection.tsx`
+
+```typescript
+const lessonsData = [
+  {
+    id: 0,
+    name: "Foundation Lesson",
+    status: "completed" as const,
+    description: "Master the fundamentals...",
+    quizCount: 10,
+    duration: "1 Hour",
+    questionCount: 10,
+  },
+  {
+    id: 1,
+    name: "Lesson 1",
+    status: "in_progress" as const,
+    description: "Learn advanced air distribution...",
+    quizCount: 8,
+    duration: "45 Minutes",
+    questionCount: 12,
+  },
+  // ... المزيد من الدروس
+];
+```
+
+**المحتوى**:
+
+- معلومات كل درس (الاسم، الحالة، الوصف)
+- عدد الاختبارات والمدة الزمنية
+- عدد الأسئلة
+
+#### 2. مناطق المعرفة (`knowledgeAreas`)
+
+**الموقع**: نفس الملف
+
+```typescript
+const knowledgeAreas = [
+  { id: 1, name: "Air Distribution System", active: true },
+  { id: 2, name: "Equipment Sizing", active: false },
+  { id: 3, name: "Exhaust System", active: false },
+  // ... المزيد
+];
+```
+
+#### 3. مواضع الدروس (`lessonPositions`)
+
+```typescript
+const lessonPositions = [
+  { top: "15px", left: "370px" },
+  { top: "135px", left: "235px" },
+  // ... مواضع كل درس على الخريطة
+];
+```
+
+#### 4. صور الدروس (`lessonImages`)
+
+```typescript
+const lessonImages = [
+  "/group.png",
+  "/group-1.png",
+  "/frame-2085663902.svg",
+  // ... مسارات الصور
+];
+```
+
+#### 5. مسارات الخريطة (`vectorImages`)
+
+```typescript
+const vectorImages = [
+  {
+    src: "/vector-492.png",
+    className: "absolute top-[155px] left-[195.19px]...",
+  },
+  // ... مسارات بصرية تربط الدروس
+];
+```
+
+#### 6. عناصر التنقل (`navigationItems`)
+
+**الموقع**: `src/screens/CourseDetails/sections/NavigationSection/NavigationSection.tsx`
+
+```typescript
+const navigationItems = [
+  { label: "Home", active: false },
+  { label: "Courses", active: true },
+  { label: "About", active: false },
+  // ...
+];
+```
+
+#### 7. Breadcrumb Items
+
+**الموقع**: `src/screens/CourseDetails/CourseDetails.tsx`
+
+```typescript
+const Items = [
+  { label: "Home", isActive: false },
+  { label: "Courses", isActive: false },
+  { label: "MEP Engineering", isActive: true },
+];
+```
+
+#### 8. روابط Footer
+
+**الموقع**: `src/screens/CourseDetails/sections/LessonSection/LessonSection.tsx`
+
+```typescript
+const navigationLinks = [
+  { label: "Home", href: "#" },
+  { label: "Courses", href: "#" },
+  // ...
+];
+
+const socialIcons = [
+  { Icon: FacebookIcon, label: "Facebook" },
+  { Icon: InstagramIcon, label: "Instagram" },
+  // ...
+];
+```
+
+### حالة المكونات (Component State)
+
+بالإضافة للبيانات الثابتة، هناك **حالة ديناميكية** تُخزن في المكونات:
+
+```typescript
+// في CourseDetailsSection
+const [selectedLesson, setSelectedLesson] = useState(null);
+const [hoveredLessonId, setHoveredLessonId] = useState(null);
+
+// في NavigationSection
+const [open, setOpen] = useState(false);
+const [searchQuery, setSearchQuery] = useState("");
+```
+
+### ملخص طريقة التخزين
+
+| نوع البيانات       | الموقع                     | النوع          |
+| ------------------ | -------------------------- | -------------- |
+| بيانات الدروس      | `CourseDetailsSection.tsx` | Constant Array |
+| مناطق المعرفة      | `CourseDetailsSection.tsx` | Constant Array |
+| مواضع الدروس       | `CourseDetailsSection.tsx` | Constant Array |
+| عناصر التنقل       | `NavigationSection.tsx`    | Constant Array |
+| Breadcrumb         | `CourseDetails.tsx`        | Constant Array |
+| روابط Footer       | `LessonSection.tsx`        | Constant Array |
+| الحالة الديناميكية | داخل المكونات              | useState Hook  |
+
+### كيفية تحسين التخزين (للمستقبل)
+
+#### 1. نقل البيانات إلى ملفات منفصلة
+
+```typescript
+// src/data/lessons.ts
+export const lessonsData = [
+  // ... البيانات
+];
+
+// src/data/knowledgeAreas.ts
+export const knowledgeAreas = [
+  // ... البيانات
+];
+```
+
+#### 2. استخدام Context API
+
+```typescript
+// src/context/CourseContext.tsx
+export const CourseContext = createContext();
+
+export const CourseProvider = ({ children }) => {
+  const [lessons, setLessons] = useState(lessonsData);
+  // ...
+};
+```
+
+#### 3. ربط البيانات بـ API
+
+```typescript
+// استخدام fetch أو axios
+useEffect(() => {
+  fetch("/api/lessons")
+    .then((res) => res.json())
+    .then((data) => setLessons(data));
+}, []);
+```
+
+#### 4. استخدام قاعدة بيانات
+
+- **Firebase** - قاعدة بيانات NoSQL
+- **Supabase** - قاعدة بيانات PostgreSQL
+- **MongoDB** - قاعدة بيانات NoSQL
+- **PostgreSQL** - قاعدة بيانات علائقية
+
+#### 5. استخدام State Management Library
+
+- **Zustand** - خفيف وسهل
+- **Redux Toolkit** - قوي ومنظم
+- **Jotai** - للـ atomic state
+
+---
+
 ## 🚀 كيفية تشغيل المشروع
 
 ### المتطلبات الأساسية
